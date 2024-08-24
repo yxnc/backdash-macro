@@ -7,8 +7,6 @@ Usually, people macroing backdash cancel would use a program called "MacroGamer"
 Although using MacroGamer is easier, it doesn't have much features and customizablity.
 This is why I've created my own version using autohotkey.
 
-> [!TIP]
-> Keybinds below are my own preferred set. Feel free to change the keybinds in the script
 
 ## Key Features
 - Any type of user input such as holding the S key or the W key would not affect the execution of the backdash cancel, this allows for more freedom during backdash cancel
@@ -17,7 +15,13 @@ This is why I've created my own version using autohotkey.
 
 ## Prerequirements
  
-In order to actually run the script, you would need [Autohotkey v2]{https://www.autohotkey.com/} and a functioning keyboard.
+In order to actually run the script, you would need [Autohotkey v2]{https://www.autohotkey.com} and a functioning keyboard.
+
+
+
+> [!TIP]
+> Keybinds below are my own preferred set. Feel free to change the keybinds in the script
+
 
 ### Keybinds
 
