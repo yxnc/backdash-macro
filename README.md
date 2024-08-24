@@ -14,12 +14,12 @@ This is why I've created my own version using autohotkey.
 
 # Prerequirements
 
-I've customized the keybinds to my own personal preference but feel free to change them to however you want.
+I've customized the keybinds to my own personal preference but feel free to change them to however you want. 
 In order to actually run the script, you would need autohotkey v2 and a functioning keyboard.
 
 # Keybinds
 
-E = 3rd move
-R = 2nd move
-T = 1st move
-C = 4th move
+- E = 3rd move
+- R = 2nd move
+- T = 1st move
+- C = 4th move
