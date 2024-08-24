@@ -15,7 +15,7 @@ This is why I've created my own version using autohotkey.
 
 ## Prerequirements
  
-In order to actually run the script, you would need [Autohotkey v2]{https://www.autohotkey.com} and a functioning keyboard.
+In order to actually run the script, you would need [Autohotkey v2](https://www.autohotkey.com) and a functioning keyboard.
 
 
 
