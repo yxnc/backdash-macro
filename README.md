@@ -39,3 +39,4 @@ Run **macro.ahk** or **debug.ahk** with autohotkey version 2
 - 'R' = Does backdash cancel for the 2nd move
 - 'T' = Does backdash cancel for the 1st move
 - 'C' = Does backdash cancel for the 4th move
+- 'Alt + Z' = Suspends/Unsuspends the script
