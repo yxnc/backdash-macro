@@ -19,6 +19,15 @@ To run this script, you would need the following:
 - [Autohotkey v2](https://autohotkey.com)
 
 
+## Installation
+
+To install, simply head over to the [release](https://github.com/yxnc/backdash-macro/releases) page and choose which version you want.
+
+## Usage
+
+Run **macro.ahk** or **debug.ahk** with autohotkey version 2
+
+
 
 > [!NOTE]
 > Keybinds below are my own preferred set. Feel free to modify the keybinds to your preference!
