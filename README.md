@@ -2,30 +2,31 @@
 an autohotkey macro that automatically does backdash cancel for you.
 
 
-## What is this for?
-Usually, people macroing backdash cancel would use a program called "MacroGamer"
-Although using MacroGamer is easier, it doesn't have much features and customizablity.
-This is why I've created my own version using autohotkey.
-
+## Overview
+This script is designed for users who want to automate the backdash cancel technique using AutoHotkey. While many people use programs like MacroGamer for this purpose, those programs often lack advanced features and customization options. This script aims to provide a more powerful and flexible alternative.
 
 ## Key Features
-- Any type of user input such as holding the S key or the W key would not affect the execution of the backdash cancel, this allows for more freedom during backdash cancel
-- In spite of the fact that using DLLCalls for sleep timing is unnecessary, I decided why not? and such, this script uses DLLCalls (highprecisionsleep) for... high precision delay...
-- A Suspend/Unsuspend hotkey! You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion.
+- **Uninterupted user handling**:    Any type of user input such as holding the S key or the W key would not affect the execution of the backdash cancel, this allows for more freedom during backdash cancel
+
+- **High-precision timing**:         In spite of the fact that using DLLCalls for sleep timing is unnecessary, I decided why not? and such, this script uses DLLCalls (highprecisionsleep) for... high precision delay..
+
+- **A Suspend/Unsuspend hotkey!**    You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion.
+
 
 ## Prerequirements
- 
-In order to actually run the script, you would need [Autohotkey v2](https://www.autohotkey.com) and a functioning keyboard.
+To run this script, you would need the following:
+
+- [Autohotkey v2](https://autohotkey.com)
 
 
 
-> [!TIP]
-> Keybinds below are my own preferred set. Feel free to change the keybinds in the script
+> [!NOTE]
+> Keybinds below are my own preferred set. Feel free to modify the keybinds to your preference!
 
 
 ### Keybinds
 
-- E = 3rd move
-- R = 2nd move
-- T = 1st move
-- C = 4th move
+- 'E' = Does backdash cancel for the 3rd move
+- 'R' = Does backdash cancel for the 2nd move
+- 'T' = Does backdash cancel for the 1st move
+- 'C' = Does backdash cancel for the 4th move
