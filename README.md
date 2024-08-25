@@ -8,7 +8,7 @@ This script is designed for users who want to automate the backdash cancel techn
 ## Key Features
 - **Uninterupted user handling**:    Any type of user input such as holding the S key or the W key would not affect the execution of the backdash cancel, this allows for more freedom during backdash cancel
 
-- **High-precision timing**:         In spite of the fact that using DLLCalls for sleep timing is unnecessary, I decided why not? and such, this script uses DLLCalls (highprecisionsleep) for... high precision delay..
+- **High-precision timing**:         In spite of the fact that using DLLCalls for sleep timing is unnecessary, I decided why not? and such, this script uses DLLCalls (highprecisionsleep) instead of sleep
 
 - **A Suspend/Unsuspend hotkey!**    You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion.
 
