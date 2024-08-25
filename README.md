@@ -25,15 +25,20 @@ To install, simply head over to the [release](https://github.com/yxnc/backdash-m
 
 ## Usage
 
+
+
 Run **macro.ahk** or **debug.ahk** with autohotkey version 2
 
+
+
+### Keybinds
 
 
 > [!NOTE]
 > Keybinds below are my own preferred set. Feel free to modify the keybinds to your preference!
 
 
-### Keybinds
+
 
 - 'E' = Does backdash cancel for the 3rd move
 - 'R' = Does backdash cancel for the 2nd move
