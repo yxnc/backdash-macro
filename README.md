@@ -16,7 +16,7 @@ This script is designed for users who want to automate the backdash cancel techn
 ## Prerequirements
 To run this script, you would need the following:
 
-- [Autohotkey v2](https://autohotkey.com)
+- [AutoHotkey v2](https://autohotkey.com)
 
 
 ## Installation
