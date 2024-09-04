@@ -13,7 +13,7 @@ This script is designed for users who want to automate the backdash cancel techn
 - **A Suspend/Unsuspend hotkey!**    You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion.
 
 
-## Prerequirements
+## Pre-requirements
 To run this script, you would need the following:
 
 - [AutoHotkey v2](https://autohotkey.com)
