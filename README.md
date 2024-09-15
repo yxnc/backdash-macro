@@ -3,14 +3,14 @@ an autohotkey macro that automatically does backdash cancel for you.
 
 
 ## Overview
-This script is designed for users who want to automate the backdash cancel technique using AutoHotkey. While many people use programs like MacroGamer for this purpose, those programs often lack advanced features and customization options. This script aims to provide a more powerful and flexible alternative.
+clutter free backdash cancel macro
 
 ## Key Features
-- **Uninterupted user handling**:    Any type of user input such as holding the S key or the W key would not affect the execution of the backdash cancel, this allows for more freedom during backdash cancel
+- **Uninterupted user handling**:    Holding any movement key would not interrupt the macro, effectively deminishing any possible conflict or error during execution.
 
 - **High-precision timing**:         In spite of the fact that using DLLCalls for sleep timing is unnecessary, I decided why not? and such, this script uses DLLCalls (highprecisionsleep) instead of sleep
 
-- **A Suspend/Unsuspend hotkey!**    You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion.
+- **A Suspend/Unsuspend hotkey!**    You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion
 
 
 ## Pre-requirements
@@ -27,7 +27,7 @@ To install, simply head over to the [release](https://github.com/yxnc/backdash-m
 
 
 
-Run **macro.ahk** or **debug.ahk** with autohotkey version 2
+Run **macro.ahk** or **debug.ahk** with AutoHotkey v2
 
 
 
@@ -35,7 +35,7 @@ Run **macro.ahk** or **debug.ahk** with autohotkey version 2
 
 
 > [!NOTE]
-> Keybinds below are my own preferred set. Feel free to modify the keybinds to your preference!
+> Keybinds below are my own preferred set. Feel free to modify the keybinds to your preference
 
 
 
