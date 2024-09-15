@@ -8,7 +8,7 @@ clutter free backdash cancel macro
 ## Key Features
 - **Uninterupted user handling**:    Holding any movement key would not interrupt the macro, effectively deminishing any possible conflict or error during execution.
 
-- **High-precision timing**:         In spite of the fact that using DLLCalls for sleep timing is unnecessary, I decided why not? and such, this script uses DLLCalls (highprecisionsleep) instead of sleep
+- **High-precision timing**:         In spite of the fact that using DLLCalls for sleep timing is unnecessary, I added it anyways. Falls back to sleep if DLLCall doesn't work somehow.
 
 - **A Suspend/Unsuspend hotkey!**    You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion
 
