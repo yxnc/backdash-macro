@@ -10,8 +10,6 @@ clutter free backdash cancel macro
 
 - **High-precision timing**:         In spite of the fact that using DLLCalls for sleep timing is unnecessary, I added it anyways. Falls back to sleep if DLLCall doesn't work somehow.
 
-- **A Suspend/Unsuspend hotkey!**    You would have to manually open MacroGamer and stop the macro itself from running, quite obnoxious in my opinion
-
 
 ## Pre-requirements
 To run this script, you would need the following:
