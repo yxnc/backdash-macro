@@ -2,11 +2,9 @@
 #SuspendExempt
 #Requires AutoHotkey v2.0
 
-; ===== CONFIG =====
 global REQUIRED_KEY := "s"
 global SAFETY_KEYS := ["w","a","s","d","q","e","r","t","Shift","Ctrl","Space","Alt"]
 
-; ===== CORE SYSTEM =====
 !Z::Suspend(!A_IsSuspended) ; Toggle suspension
 #SuspendExempt False
 SendMode("Input")
@@ -20,11 +18,9 @@ HandleKeySequence(sequence, requiredKey := "s") {
     Critical(1000)
     
     try {
-        ; --- Phase 1: Key State Management ---
         originalKeys := ReleaseAllExcept(requiredKey)
         manuallyHeld := GetKeyState(requiredKey, "P")
         
-        ; --- Phase 2: Execute Sequence ---
         if !manuallyHeld {
             Send("{Blind}{" requiredKey " down}")
             HighPrecisionSleep(15)
@@ -32,7 +28,6 @@ HandleKeySequence(sequence, requiredKey := "s") {
         
         SendInput(sequence)
         
-        ; --- Phase 3: Cleanup ---
         if !manuallyHeld {
             Send("{Blind}{" requiredKey " up}")
             HighPrecisionSleep(15)
@@ -45,7 +40,6 @@ HandleKeySequence(sequence, requiredKey := "s") {
     }
 }
 
-; ===== OPTIMIZED SUBSYSTEMS =====
 ReleaseAllExcept(requiredKey) {
     keyStates := Map()
     for key in SAFETY_KEYS {
